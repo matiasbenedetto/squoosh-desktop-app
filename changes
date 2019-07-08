@@ -1,0 +1,20 @@
+//folder build after the build process
+//main-app.fc187.js
+function(e, t, n) {
+    const script = document.currentScript;
+    const fullUrl = script.src;
+    const processorWorker = fullUrl.split('/').slice(0, -1).join('/');
+    e.exports = processorWorker + "/processor-worker.be3e7.worker.js";
+},
+
+//squoosh webpack config change previous to build process
+//webpack.config.js
+ output: {
+      filename: isProd ? '[name].[chunkhash:5].js' : '[name].js',
+      chunkFilename: '[name].[chunkhash:5].js',
+      path: path.join(__dirname, 'build'),
+      publicPath: '',  //changed publicPath: '' to publicPath: '/'
+      globalObject: 'self'
+    },
+
+
