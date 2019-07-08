@@ -1,14 +1,29 @@
 {
-  "name": "electron-test",
-  "version": "1.0.0",
-  "description": "Testing electron hellow world app",
+  "name": "squoosh-desktop-app",
+  "version": "0.0.1",
+  "description": "Squoosh multiplatform desktop app working offline",
+  "author": "Matias Benedetto <matias.benedetto@gmail.com>",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "Apache 2.0",
   "devDependencies": {
-    "electron": "^5.0.6"
+    "electron": "^5.0.6",
+    "electron-builder": "^20.44.4"
+  },
+  "build": {
+    "appId": "Squoosh Desktop App",
+    "extends": null,
+    "files": [
+      "main.js",
+      "*.js",
+      "build",
+      "node_modules",
+      "./build/**/*",
+      "./public/electron.js"
+    ]
   }
 }
