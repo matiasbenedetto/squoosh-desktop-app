@@ -1,6 +1,6 @@
 {
   "name": "squoosh-desktop-app",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Squoosh multiplatform desktop app working offline",
   "author": "Matias Benedetto <matias.benedetto@gmail.com>",
   "main": "main.js",
@@ -16,7 +16,7 @@
   },
   "build": {
     "appId": "com.squoosh.app",
-    "productName": "Squoosh desktop app",
+    "productName": "Squoosh Desktop",
     "extends": null,
     "files": [
       "main.js",
