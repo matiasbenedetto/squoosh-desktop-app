@@ -28,16 +28,24 @@
       "./build/**/*",
       "./public/electron.js"
     ],
-    "linux": {
-      "icon": "icon-256x256.png",
+    "win": {
+      "icon": "icon-1024x1024.png",
+      "target": [
+        "nsis"
+      ]
+    },
+    "linux": {      
       "category": "Graphics",
       "target": [
         "AppImage",
         "deb"
-      ]
+      ],
+      "icon": "icon-256x256.png"
     },
     "mac":{
       "icon": "icon-1024x1024.png",
+      "category": "public.app-category.graphics-design",
+      "type": "distribution",
       "target": [
         "dmg"
       ]
