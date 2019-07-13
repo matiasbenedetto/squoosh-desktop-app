@@ -1,5 +1,5 @@
 # Squoosh Desktop App
-**Squoosh your images to get the best**
+**Squoosh your images to get the best out of it**
 
 Multiplatform desktop app to compress, resize, and crop your images. <br/> It's completely free and for free.
 It's available for Windows, Linux and Mac.
