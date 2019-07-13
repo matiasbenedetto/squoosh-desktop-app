@@ -31,7 +31,8 @@
     "win": {
       "icon": "icon-1024x1024.png",
       "target": [
-        "nsis"
+        "nsis",
+        "portable"
       ]
     },
     "linux": {      
