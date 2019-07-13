@@ -9,9 +9,12 @@ It's available for Windows, Linux and Mac.
 ## Download
 [Download from the website](https://squoosh-desktop.now.sh/)
 
-## More info
+Squoosh Desktop App is an offline version of Squoosh app. It's based on Electron and works 100% offline without internet connection.
 
-Squoosh Desktop App is an port based on Electron and working 100% offline of the online version of [Squosh.app](https://squoosh.app). Squoosh is and open source product made by the GoogleChromeLabs. The desktop app is a project of [Matias Benedetto](http://mebenedetto.com)
+Squoosh is and open source product made by the GoogleChromeLabs.
+
+
+The desktop app is a project of [Matias Benedetto](http://mebenedetto.com)
 
 ## Contribute
 If you want to contribute to the desktop app feel free to make a Pull Request improving the codebase.
